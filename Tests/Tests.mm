@@ -9,6 +9,7 @@
 #import <XCTest/XCTest.h>
 
 #import "maxSubArray.hpp"
+#include "canJump.hpp"
 
 @interface Tests : XCTestCase
 
@@ -57,6 +58,25 @@
     int result = sut.maxSubArray(nums);
     
     XCTAssertEqual(result, -1);
+}
+
+// MARK: 55
+- (void)test55canJump1 {
+    vector<int> nums({2,3,1,1,4});
+    
+    Solution55 sut;
+    auto result = sut.canJump(nums);
+    
+    XCTAssertEqual(result, true);
+}
+
+- (void)test55canJump2 {
+    vector<int> nums({3,2,1,0,4});
+    
+    Solution55 sut;
+    auto result = sut.canJump(nums);
+    
+    XCTAssertEqual(result, false);
 }
 
 
