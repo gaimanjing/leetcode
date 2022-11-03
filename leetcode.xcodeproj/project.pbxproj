@@ -11,6 +11,8 @@
 		BB3DE4DD2913996000AD357F /* canJump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4DA2913951B00AD357F /* canJump.cpp */; };
 		BB3DE4E029139ED600AD357F /* merge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4DE29139ED600AD357F /* merge.cpp */; };
 		BB3DE4E129139ED600AD357F /* merge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4DE29139ED600AD357F /* merge.cpp */; };
+		BB3DE4E42913A6F400AD357F /* uniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4E22913A6F400AD357F /* uniquePaths.cpp */; };
+		BB3DE4E52913A6F400AD357F /* uniquePaths.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4E22913A6F400AD357F /* uniquePaths.cpp */; };
 		BB40FBD22422545F00CFFF8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB40FBD12422545F00CFFF8A /* main.m */; };
 		BB9446942434CE120043DFCC /* 29.c in Sources */ = {isa = PBXBuildFile; fileRef = BB9446932434CE120043DFCC /* 29.c */; };
 		BBAB9651291293A400797233 /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9650291293A400797233 /* Tests.mm */; };
@@ -35,6 +37,8 @@
 		BB3DE4DB2913951B00AD357F /* canJump.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = canJump.hpp; sourceTree = "<group>"; };
 		BB3DE4DE29139ED600AD357F /* merge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = merge.cpp; sourceTree = "<group>"; };
 		BB3DE4DF29139ED600AD357F /* merge.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = merge.hpp; sourceTree = "<group>"; };
+		BB3DE4E22913A6F400AD357F /* uniquePaths.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = uniquePaths.cpp; sourceTree = "<group>"; };
+		BB3DE4E32913A6F400AD357F /* uniquePaths.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = uniquePaths.hpp; sourceTree = "<group>"; };
 		BB40FBCE2422545F00CFFF8A /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB40FBD12422545F00CFFF8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB40FBD9242254B900CFFF8A /* 07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 07.c; sourceTree = "<group>"; };
@@ -159,6 +163,8 @@
 				BBAB9657291294F900797233 /* maxSubArray.hpp */,
 				BB3DE4DE29139ED600AD357F /* merge.cpp */,
 				BB3DE4DF29139ED600AD357F /* merge.hpp */,
+				BB3DE4E22913A6F400AD357F /* uniquePaths.cpp */,
+				BB3DE4E32913A6F400AD357F /* uniquePaths.hpp */,
 			);
 			path = cpp;
 			sourceTree = "<group>";
@@ -252,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB3DE4E029139ED600AD357F /* merge.cpp in Sources */,
+				BB3DE4E42913A6F400AD357F /* uniquePaths.cpp in Sources */,
 				BBAB9658291294F900797233 /* maxSubArray.cpp in Sources */,
 				BB9446942434CE120043DFCC /* 29.c in Sources */,
 				BB3DE4DC2913951B00AD357F /* canJump.cpp in Sources */,
@@ -264,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBAB9651291293A400797233 /* Tests.mm in Sources */,
+				BB3DE4E52913A6F400AD357F /* uniquePaths.cpp in Sources */,
 				BBAB9659291294F900797233 /* maxSubArray.cpp in Sources */,
 				BB3DE4E129139ED600AD357F /* merge.cpp in Sources */,
 				BB3DE4DD2913996000AD357F /* canJump.cpp in Sources */,

@@ -11,6 +11,7 @@
 #import "maxSubArray.hpp"
 #include "canJump.hpp"
 #include "merge.hpp"
+#include "uniquePaths.hpp"
 
 @interface Tests : XCTestCase
 
@@ -101,5 +102,25 @@
     XCTAssert(result == r);
 }
 
+// MARK: - 62
+- (void)test62uniquePaths1 {
+    Solution62 sut;
+    XCTAssert(sut.uniquePaths(3, 7) == 28);
+}
+
+- (void)test62uniquePaths2 {
+    Solution62 sut;
+    XCTAssert(sut.uniquePaths(3, 2) == 3);
+}
+
+- (void)test62uniquePaths3 {
+    Solution62 sut;
+    XCTAssert(sut.uniquePaths(7, 3) == 28);
+}
+
+- (void)test62uniquePaths4 {
+    Solution62 sut;
+    XCTAssert(sut.uniquePaths(3, 3) == 6);
+}
 
 @end
