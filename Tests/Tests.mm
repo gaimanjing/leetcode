@@ -10,6 +10,7 @@
 
 #import "maxSubArray.hpp"
 #include "canJump.hpp"
+#include "merge.hpp"
 
 @interface Tests : XCTestCase
 
@@ -77,6 +78,27 @@
     auto result = sut.canJump(nums);
     
     XCTAssertEqual(result, false);
+}
+
+// MARK: - 56
+- (void)test56merge1 {
+    vector<vector<int>> intervals = {{1,3},{2,6},{8,10},{15,18}};
+    vector<vector<int>> r = {{1,6},{8,10},{15,18}};
+    
+    Solution56 sut;
+    auto result = sut.merge(intervals);
+    
+    XCTAssert(result == r);
+}
+
+- (void)test56merge2 {
+    vector<vector<int>> intervals = {{1,4},{4, 5}};
+    vector<vector<int>> r = {{1,5}};
+    
+    Solution56 sut;
+    auto result = sut.merge(intervals);
+    
+    XCTAssert(result == r);
 }
 
 
