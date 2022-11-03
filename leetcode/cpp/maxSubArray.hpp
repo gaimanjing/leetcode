@@ -15,6 +15,14 @@ using std::vector;
 class Solution53 {
 public:
     int maxSubArray(vector<int>& nums);
+    
+private:
+    int maxSubArray2(vector<int>& nums);
+    struct Status {
+        int lSum, rSum, mSum, iSum;
+    };
+    Status pushUp(Status left, Status right);
+    Status get(vector<int>& nums, int left, int right);
 };
 
 #endif /* maxSubArray_hpp */
