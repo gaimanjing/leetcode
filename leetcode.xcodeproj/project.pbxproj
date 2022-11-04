@@ -17,6 +17,8 @@
 		BB3DE4E92914ABF200AD357F /* minPathSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4E62914ABF200AD357F /* minPathSum.cpp */; };
 		BB3DE4EC2914B75200AD357F /* climbStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4EA2914B75200AD357F /* climbStairs.cpp */; };
 		BB3DE4ED2914B75200AD357F /* climbStairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4EA2914B75200AD357F /* climbStairs.cpp */; };
+		BB3DE4F02914C10F00AD357F /* minDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4EE2914C10F00AD357F /* minDistance.cpp */; };
+		BB3DE4F12914C10F00AD357F /* minDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4EE2914C10F00AD357F /* minDistance.cpp */; };
 		BB40FBD22422545F00CFFF8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB40FBD12422545F00CFFF8A /* main.m */; };
 		BB9446942434CE120043DFCC /* 29.c in Sources */ = {isa = PBXBuildFile; fileRef = BB9446932434CE120043DFCC /* 29.c */; };
 		BBAB9651291293A400797233 /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9650291293A400797233 /* Tests.mm */; };
@@ -47,6 +49,8 @@
 		BB3DE4E72914ABF200AD357F /* minPathSum.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = minPathSum.hpp; sourceTree = "<group>"; };
 		BB3DE4EA2914B75200AD357F /* climbStairs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = climbStairs.cpp; sourceTree = "<group>"; };
 		BB3DE4EB2914B75200AD357F /* climbStairs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = climbStairs.hpp; sourceTree = "<group>"; };
+		BB3DE4EE2914C10F00AD357F /* minDistance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minDistance.cpp; sourceTree = "<group>"; };
+		BB3DE4EF2914C10F00AD357F /* minDistance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = minDistance.hpp; sourceTree = "<group>"; };
 		BB40FBCE2422545F00CFFF8A /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB40FBD12422545F00CFFF8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB40FBD9242254B900CFFF8A /* 07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 07.c; sourceTree = "<group>"; };
@@ -168,6 +172,8 @@
 				BB3DE4DA2913951B00AD357F /* canJump.cpp */,
 				BB3DE4DB2913951B00AD357F /* canJump.hpp */,
 				BB3DE4EA2914B75200AD357F /* climbStairs.cpp */,
+				BB3DE4EE2914C10F00AD357F /* minDistance.cpp */,
+				BB3DE4EF2914C10F00AD357F /* minDistance.hpp */,
 				BB3DE4EB2914B75200AD357F /* climbStairs.hpp */,
 				BBAB9656291294F900797233 /* maxSubArray.cpp */,
 				BBAB9657291294F900797233 /* maxSubArray.hpp */,
@@ -275,6 +281,7 @@
 				BB9446942434CE120043DFCC /* 29.c in Sources */,
 				BB3DE4E82914ABF200AD357F /* minPathSum.cpp in Sources */,
 				BB3DE4EC2914B75200AD357F /* climbStairs.cpp in Sources */,
+				BB3DE4F02914C10F00AD357F /* minDistance.cpp in Sources */,
 				BB3DE4DC2913951B00AD357F /* canJump.cpp in Sources */,
 				BB40FBD22422545F00CFFF8A /* main.m in Sources */,
 			);
@@ -291,6 +298,7 @@
 				BB3DE4E129139ED600AD357F /* merge.cpp in Sources */,
 				BB3DE4DD2913996000AD357F /* canJump.cpp in Sources */,
 				BB3DE4E92914ABF200AD357F /* minPathSum.cpp in Sources */,
+				BB3DE4F12914C10F00AD357F /* minDistance.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

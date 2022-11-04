@@ -14,6 +14,7 @@
 #include "uniquePaths.hpp"
 #include "minPathSum.hpp"
 #include "climbStairs.hpp"
+#include "minDistance.hpp"
 
 @interface Tests : XCTestCase
 
@@ -155,4 +156,24 @@
     XCTAssert(sut.climbStairs(3) == 3);
 }
 
+// MARK: - 72
+- (void)test72minDistance1 {
+    Solution72 sut;
+    XCTAssert(sut.minDistance("horse", "ros") == 3);
+}
+
+- (void)test72minDistance2 {
+    Solution72 sut;
+    XCTAssert(sut.minDistance("intention", "execution") == 5);
+}
+
+- (void)test72minDistance602 {
+    Solution72 sut;
+    XCTAssert(sut.minDistance("a", "a") == 0);
+}
+
+- (void)test72minDistance1054 {
+    Solution72 sut;
+    XCTAssert(sut.minDistance("sea", "eat") == 2);
+}
 @end
