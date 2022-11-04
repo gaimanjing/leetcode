@@ -12,6 +12,7 @@
 #include "canJump.hpp"
 #include "merge.hpp"
 #include "uniquePaths.hpp"
+#include "minPathSum.hpp"
 
 @interface Tests : XCTestCase
 
@@ -123,4 +124,22 @@
     XCTAssert(sut.uniquePaths(3, 3) == 6);
 }
 
+// MARK: - 64
+- (void)test64minPathSum1 {
+    vector<vector<int>> grid = {{1,3,1},{1,5,1},{4,2,1}};
+    
+    Solution64 sut;
+    auto result = sut.minPathSum(grid);
+    
+    XCTAssert(result == 7);
+}
+    
+- (void)test64minPathSum2 {
+    vector<vector<int>> grid = {{1,2,3},{4,5,6}};
+    
+    Solution64 sut;
+    auto result = sut.minPathSum(grid);
+    
+    XCTAssert(result == 12);
+}
 @end
