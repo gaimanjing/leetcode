@@ -15,6 +15,7 @@
 #include "minPathSum.hpp"
 #include "climbStairs.hpp"
 #include "minDistance.hpp"
+#include "sortColors.hpp"
 
 @interface Tests : XCTestCase
 
@@ -175,5 +176,26 @@
 - (void)test72minDistance1054 {
     Solution72 sut;
     XCTAssert(sut.minDistance("sea", "eat") == 2);
+}
+
+// MARK: - 75
+- (void)test75sortColors1 {
+    vector<int> nums({2,0,2,1,1,0});
+    vector<int> r({0,0,1,1,2,2});
+    
+    Solution75 sut;
+    sut.sortColors(nums);
+    
+    XCTAssert(nums == r);
+}
+
+- (void)test75sortColors2 {
+    vector<int> nums({2,0,1});
+    vector<int> r({0,1,2});
+    
+    Solution75 sut;
+    sut.sortColors(nums);
+    
+    XCTAssert(nums == r);
 }
 @end
