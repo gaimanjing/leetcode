@@ -13,6 +13,7 @@
 #include "merge.hpp"
 #include "uniquePaths.hpp"
 #include "minPathSum.hpp"
+#include "climbStairs.hpp"
 
 @interface Tests : XCTestCase
 
@@ -142,4 +143,16 @@
     
     XCTAssert(result == 12);
 }
+
+// MARK: - 70
+- (void)test70climbStairs1 {
+    Solution70 sut;
+    XCTAssert(sut.climbStairs(2) == 2);
+}
+
+- (void)test70climbStairs2 {
+    Solution70 sut;
+    XCTAssert(sut.climbStairs(3) == 3);
+}
+
 @end
