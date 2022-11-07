@@ -21,6 +21,8 @@
 		BB3DE4F12914C10F00AD357F /* minDistance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4EE2914C10F00AD357F /* minDistance.cpp */; };
 		BB3DE4F4291504D700AD357F /* sortColors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4F2291504D700AD357F /* sortColors.cpp */; };
 		BB3DE4F5291504D700AD357F /* sortColors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4F2291504D700AD357F /* sortColors.cpp */; };
+		BB3DE4F82918E13D00AD357F /* minWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4F62918E13C00AD357F /* minWindow.cpp */; };
+		BB3DE4F92918E13D00AD357F /* minWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4F62918E13C00AD357F /* minWindow.cpp */; };
 		BB40FBD22422545F00CFFF8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB40FBD12422545F00CFFF8A /* main.m */; };
 		BB9446942434CE120043DFCC /* 29.c in Sources */ = {isa = PBXBuildFile; fileRef = BB9446932434CE120043DFCC /* 29.c */; };
 		BBAB9651291293A400797233 /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9650291293A400797233 /* Tests.mm */; };
@@ -55,6 +57,8 @@
 		BB3DE4EF2914C10F00AD357F /* minDistance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = minDistance.hpp; sourceTree = "<group>"; };
 		BB3DE4F2291504D700AD357F /* sortColors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sortColors.cpp; sourceTree = "<group>"; };
 		BB3DE4F3291504D700AD357F /* sortColors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sortColors.hpp; sourceTree = "<group>"; };
+		BB3DE4F62918E13C00AD357F /* minWindow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = minWindow.cpp; sourceTree = "<group>"; };
+		BB3DE4F72918E13D00AD357F /* minWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = minWindow.hpp; sourceTree = "<group>"; };
 		BB40FBCE2422545F00CFFF8A /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB40FBD12422545F00CFFF8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB40FBD9242254B900CFFF8A /* 07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 07.c; sourceTree = "<group>"; };
@@ -176,17 +180,19 @@
 				BB3DE4DA2913951B00AD357F /* canJump.cpp */,
 				BB3DE4DB2913951B00AD357F /* canJump.hpp */,
 				BB3DE4EA2914B75200AD357F /* climbStairs.cpp */,
-				BB3DE4EE2914C10F00AD357F /* minDistance.cpp */,
-				BB3DE4F2291504D700AD357F /* sortColors.cpp */,
-				BB3DE4F3291504D700AD357F /* sortColors.hpp */,
-				BB3DE4EF2914C10F00AD357F /* minDistance.hpp */,
 				BB3DE4EB2914B75200AD357F /* climbStairs.hpp */,
 				BBAB9656291294F900797233 /* maxSubArray.cpp */,
 				BBAB9657291294F900797233 /* maxSubArray.hpp */,
 				BB3DE4DE29139ED600AD357F /* merge.cpp */,
 				BB3DE4DF29139ED600AD357F /* merge.hpp */,
+				BB3DE4EE2914C10F00AD357F /* minDistance.cpp */,
+				BB3DE4EF2914C10F00AD357F /* minDistance.hpp */,
 				BB3DE4E62914ABF200AD357F /* minPathSum.cpp */,
 				BB3DE4E72914ABF200AD357F /* minPathSum.hpp */,
+				BB3DE4F62918E13C00AD357F /* minWindow.cpp */,
+				BB3DE4F72918E13D00AD357F /* minWindow.hpp */,
+				BB3DE4F2291504D700AD357F /* sortColors.cpp */,
+				BB3DE4F3291504D700AD357F /* sortColors.hpp */,
 				BB3DE4E22913A6F400AD357F /* uniquePaths.cpp */,
 				BB3DE4E32913A6F400AD357F /* uniquePaths.hpp */,
 			);
@@ -282,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB3DE4E029139ED600AD357F /* merge.cpp in Sources */,
+				BB3DE4F82918E13D00AD357F /* minWindow.cpp in Sources */,
 				BB3DE4E42913A6F400AD357F /* uniquePaths.cpp in Sources */,
 				BBAB9658291294F900797233 /* maxSubArray.cpp in Sources */,
 				BB9446942434CE120043DFCC /* 29.c in Sources */,
@@ -302,6 +309,7 @@
 				BBAB9651291293A400797233 /* Tests.mm in Sources */,
 				BB3DE4E52913A6F400AD357F /* uniquePaths.cpp in Sources */,
 				BB3DE4ED2914B75200AD357F /* climbStairs.cpp in Sources */,
+				BB3DE4F92918E13D00AD357F /* minWindow.cpp in Sources */,
 				BBAB9659291294F900797233 /* maxSubArray.cpp in Sources */,
 				BB3DE4E129139ED600AD357F /* merge.cpp in Sources */,
 				BB3DE4DD2913996000AD357F /* canJump.cpp in Sources */,

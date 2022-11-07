@@ -16,6 +16,7 @@
 #include "climbStairs.hpp"
 #include "minDistance.hpp"
 #include "sortColors.hpp"
+#include "minWindow.hpp"
 
 @interface Tests : XCTestCase
 
@@ -197,5 +198,36 @@
     sut.sortColors(nums);
     
     XCTAssert(nums == r);
+}
+    
+// MARK: - 76
+- (void)test76minWindow1 {
+    string s = "ADOBECODEBANC", t = "ABC";
+    string r("BANC");
+   
+    Solution76 sut;
+    auto result = sut.minWindow(s, t);
+    
+    XCTAssert(result == r);
+}
+
+- (void)test76minWindow2 {
+    string s = "a", t = "a";
+    string r("a");
+   
+    Solution76 sut;
+    auto result = sut.minWindow(s, t);
+    
+    XCTAssert(result == r);
+}
+
+- (void)test76minWindow3 {
+    string s = "a", t = "aa";
+    string r("");
+   
+    Solution76 sut;
+    auto result = sut.minWindow(s, t);
+    
+    XCTAssert(result == r);
 }
 @end
