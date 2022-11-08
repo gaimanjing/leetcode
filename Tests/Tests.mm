@@ -17,6 +17,7 @@
 #include "minDistance.hpp"
 #include "sortColors.hpp"
 #include "minWindow.hpp"
+#include "subsets.hpp"
 
 @interface Tests : XCTestCase
 
@@ -227,6 +228,27 @@
    
     Solution76 sut;
     auto result = sut.minWindow(s, t);
+    
+    XCTAssert(result == r);
+}
+
+// MARK: - 78
+- (void)test78subsets1 {
+    vector<int> nums{1,2,3};
+    vector<vector<int>> r{{},{1},{2},{1,2},{3},{1,3},{2,3},{1,2,3}};
+   
+    Solution78 sut;
+    auto result = sut.subsets(nums);
+    
+    XCTAssert(result == r);
+}
+
+- (void)test78subsets2 {
+    vector<int> nums{0};
+    vector<vector<int>> r{{},{0}};
+   
+    Solution78 sut;
+    auto result = sut.subsets(nums);
     
     XCTAssert(result == r);
 }
