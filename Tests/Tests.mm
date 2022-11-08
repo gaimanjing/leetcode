@@ -18,6 +18,7 @@
 #include "sortColors.hpp"
 #include "minWindow.hpp"
 #include "subsets.hpp"
+#include "exist.hpp"
 
 @interface Tests : XCTestCase
 
@@ -252,4 +253,46 @@
     
     XCTAssert(result == r);
 }
+
+// MARK: - 78
+- (void)test79exist1 {
+    vector<vector<char>> board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
+    string word("ABCCED");
+    
+    Solution79 sut;
+    auto result = sut.exist(board, word);
+    
+    XCTAssert(result == true);
+}
+
+- (void)test79exist2 {
+    vector<vector<char>> board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
+    string word = "SEE";
+    
+    Solution79 sut;
+    auto result = sut.exist(board, word);
+    
+    XCTAssert(result == true);
+}
+
+- (void)test79exist3 {
+    vector<vector<char>> board = {{'A','B','C','E'},{'S','F','C','S'},{'A','D','E','E'}};
+    string word = "ABCB";
+    
+    Solution79 sut;
+    auto result = sut.exist(board, word);
+    
+    XCTAssert(result == false);
+}
+
+- (void)test79exist55 {
+    vector<vector<char>> board = {{'a','b'},{'c','d'}};
+    string word = "acdb";
+    
+    Solution79 sut;
+    auto result = sut.exist(board, word);
+    
+    XCTAssert(result == true);
+}
+
 @end

@@ -25,6 +25,8 @@
 		BB3DE4F92918E13D00AD357F /* minWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4F62918E13C00AD357F /* minWindow.cpp */; };
 		BB3DE4FC2919FE5500AD357F /* subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4FA2919FE5500AD357F /* subsets.cpp */; };
 		BB3DE4FD2919FE5500AD357F /* subsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4FA2919FE5500AD357F /* subsets.cpp */; };
+		BB3DE500291A07ED00AD357F /* exist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4FE291A07ED00AD357F /* exist.cpp */; };
+		BB3DE501291A07ED00AD357F /* exist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4FE291A07ED00AD357F /* exist.cpp */; };
 		BB40FBD22422545F00CFFF8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB40FBD12422545F00CFFF8A /* main.m */; };
 		BB9446942434CE120043DFCC /* 29.c in Sources */ = {isa = PBXBuildFile; fileRef = BB9446932434CE120043DFCC /* 29.c */; };
 		BBAB9651291293A400797233 /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9650291293A400797233 /* Tests.mm */; };
@@ -63,6 +65,8 @@
 		BB3DE4F72918E13D00AD357F /* minWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = minWindow.hpp; sourceTree = "<group>"; };
 		BB3DE4FA2919FE5500AD357F /* subsets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = subsets.cpp; sourceTree = "<group>"; };
 		BB3DE4FB2919FE5500AD357F /* subsets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = subsets.hpp; sourceTree = "<group>"; };
+		BB3DE4FE291A07ED00AD357F /* exist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exist.cpp; sourceTree = "<group>"; };
+		BB3DE4FF291A07ED00AD357F /* exist.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = exist.hpp; sourceTree = "<group>"; };
 		BB40FBCE2422545F00CFFF8A /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB40FBD12422545F00CFFF8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB40FBD9242254B900CFFF8A /* 07.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 07.c; sourceTree = "<group>"; };
@@ -198,6 +202,8 @@
 				BB3DE4F2291504D700AD357F /* sortColors.cpp */,
 				BB3DE4F3291504D700AD357F /* sortColors.hpp */,
 				BB3DE4FA2919FE5500AD357F /* subsets.cpp */,
+				BB3DE4FE291A07ED00AD357F /* exist.cpp */,
+				BB3DE4FF291A07ED00AD357F /* exist.hpp */,
 				BB3DE4FB2919FE5500AD357F /* subsets.hpp */,
 				BB3DE4E22913A6F400AD357F /* uniquePaths.cpp */,
 				BB3DE4E32913A6F400AD357F /* uniquePaths.hpp */,
@@ -305,6 +311,7 @@
 				BB3DE4DC2913951B00AD357F /* canJump.cpp in Sources */,
 				BB40FBD22422545F00CFFF8A /* main.m in Sources */,
 				BB3DE4F4291504D700AD357F /* sortColors.cpp in Sources */,
+				BB3DE500291A07ED00AD357F /* exist.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +326,7 @@
 				BB3DE4ED2914B75200AD357F /* climbStairs.cpp in Sources */,
 				BB3DE4F92918E13D00AD357F /* minWindow.cpp in Sources */,
 				BBAB9659291294F900797233 /* maxSubArray.cpp in Sources */,
+				BB3DE501291A07ED00AD357F /* exist.cpp in Sources */,
 				BB3DE4E129139ED600AD357F /* merge.cpp in Sources */,
 				BB3DE4DD2913996000AD357F /* canJump.cpp in Sources */,
 				BB3DE4E92914ABF200AD357F /* minPathSum.cpp in Sources */,
