@@ -19,6 +19,7 @@
 #include "minWindow.hpp"
 #include "subsets.hpp"
 #include "exist.hpp"
+#include "largestRectangleArea.hpp"
 
 @interface Tests : XCTestCase
 
@@ -295,4 +296,22 @@
     XCTAssert(result == true);
 }
 
+// MARK: - 84
+- (void)test84largestRectangleArea1 {
+    vector<int> height{2, 1, 5, 6, 2, 3};
+    
+    Solution84 sut;
+    auto result = sut.largestRectangleArea(height);
+    
+    XCTAssert(result == 10);
+}
+
+- (void)test84largestRectangleArea2 {
+    vector<int> height{2, 4};
+    
+    Solution84 sut;
+    auto result = sut.largestRectangleArea(height);
+    
+    XCTAssert(result == 4);
+}
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB114CB9291B445C0079EE12 /* largestRectangleArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB114CB7291B445C0079EE12 /* largestRectangleArea.cpp */; };
+		BB114CBA291B445C0079EE12 /* largestRectangleArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB114CB7291B445C0079EE12 /* largestRectangleArea.cpp */; };
 		BB3DE4DC2913951B00AD357F /* canJump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4DA2913951B00AD357F /* canJump.cpp */; };
 		BB3DE4DD2913996000AD357F /* canJump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4DA2913951B00AD357F /* canJump.cpp */; };
 		BB3DE4E029139ED600AD357F /* merge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4DE29139ED600AD357F /* merge.cpp */; };
@@ -47,6 +49,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB114CB7291B445C0079EE12 /* largestRectangleArea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = largestRectangleArea.cpp; sourceTree = "<group>"; };
+		BB114CB8291B445C0079EE12 /* largestRectangleArea.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = largestRectangleArea.hpp; sourceTree = "<group>"; };
 		BB3DE4DA2913951B00AD357F /* canJump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = canJump.cpp; sourceTree = "<group>"; };
 		BB3DE4DB2913951B00AD357F /* canJump.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = canJump.hpp; sourceTree = "<group>"; };
 		BB3DE4DE29139ED600AD357F /* merge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = merge.cpp; sourceTree = "<group>"; };
@@ -189,6 +193,8 @@
 				BB3DE4DB2913951B00AD357F /* canJump.hpp */,
 				BB3DE4EA2914B75200AD357F /* climbStairs.cpp */,
 				BB3DE4EB2914B75200AD357F /* climbStairs.hpp */,
+				BB114CB7291B445C0079EE12 /* largestRectangleArea.cpp */,
+				BB114CB8291B445C0079EE12 /* largestRectangleArea.hpp */,
 				BBAB9656291294F900797233 /* maxSubArray.cpp */,
 				BBAB9657291294F900797233 /* maxSubArray.hpp */,
 				BB3DE4DE29139ED600AD357F /* merge.cpp */,
@@ -312,6 +318,7 @@
 				BB40FBD22422545F00CFFF8A /* main.m in Sources */,
 				BB3DE4F4291504D700AD357F /* sortColors.cpp in Sources */,
 				BB3DE500291A07ED00AD357F /* exist.cpp in Sources */,
+				BB114CB9291B445C0079EE12 /* largestRectangleArea.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +334,7 @@
 				BB3DE4F92918E13D00AD357F /* minWindow.cpp in Sources */,
 				BBAB9659291294F900797233 /* maxSubArray.cpp in Sources */,
 				BB3DE501291A07ED00AD357F /* exist.cpp in Sources */,
+				BB114CBA291B445C0079EE12 /* largestRectangleArea.cpp in Sources */,
 				BB3DE4E129139ED600AD357F /* merge.cpp in Sources */,
 				BB3DE4DD2913996000AD357F /* canJump.cpp in Sources */,
 				BB3DE4E92914ABF200AD357F /* minPathSum.cpp in Sources */,
