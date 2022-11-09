@@ -20,6 +20,7 @@
 #include "subsets.hpp"
 #include "exist.hpp"
 #include "largestRectangleArea.hpp"
+#include "maximalRectangle.hpp"
 
 @interface Tests : XCTestCase
 
@@ -313,5 +314,56 @@
     auto result = sut.largestRectangleArea(height);
     
     XCTAssert(result == 4);
+}
+
+// MARK: - 85
+- (void)test85maximalRectangle1 {
+    vector<vector<char>> matrix = {{'1','0','1','0','0'},{'1','0','1','1','1'},{'1','1','1','1','1'},{'1','0','0','1','0'}};
+    
+    Solution85 sut;
+    auto result = sut.maximalRectangle(matrix);
+    
+    XCTAssert(result == 6);
+}
+- (void)test85maximalRectangle2 {
+    vector<vector<char>> matrix{};
+    
+    Solution85 sut;
+    auto result = sut.maximalRectangle(matrix);
+    
+    XCTAssert(result == 0);
+}
+- (void)test85maximalRectangle3 {
+    vector<vector<char>> matrix = {{'0'}};
+    
+    Solution85 sut;
+    auto result = sut.maximalRectangle(matrix);
+    
+    XCTAssert(result == 0);
+}
+- (void)test85maximalRectangle4 {
+    vector<vector<char>> matrix = {{'1'}};
+    
+    Solution85 sut;
+    auto result = sut.maximalRectangle(matrix);
+    
+    XCTAssert(result == 1);
+}
+- (void)test85maximalRectangle5 {
+    vector<vector<char>> matrix = {{'0','0'}};
+    
+    Solution85 sut;
+    auto result = sut.maximalRectangle(matrix);
+    
+    XCTAssert(result == 0);
+}
+
+- (void)test85maximalRectangle25 {
+    vector<vector<char>> matrix = {{'1','1'}};
+    
+    Solution85 sut;
+    auto result = sut.maximalRectangle(matrix);
+    
+    XCTAssert(result == 2);
 }
 @end
