@@ -32,6 +32,8 @@
 		BB3DE500291A07ED00AD357F /* exist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4FE291A07ED00AD357F /* exist.cpp */; };
 		BB3DE501291A07ED00AD357F /* exist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB3DE4FE291A07ED00AD357F /* exist.cpp */; };
 		BB40FBD22422545F00CFFF8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB40FBD12422545F00CFFF8A /* main.m */; };
+		BB798CF3291C8616006AEDED /* inorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CF1291C8616006AEDED /* inorderTraversal.cpp */; };
+		BB798CF4291C8616006AEDED /* inorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CF1291C8616006AEDED /* inorderTraversal.cpp */; };
 		BB9446942434CE120043DFCC /* 29.c in Sources */ = {isa = PBXBuildFile; fileRef = BB9446932434CE120043DFCC /* 29.c */; };
 		BBAB9651291293A400797233 /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9650291293A400797233 /* Tests.mm */; };
 		BBAB9658291294F900797233 /* maxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9656291294F900797233 /* maxSubArray.cpp */; };
@@ -85,6 +87,8 @@
 		BB40FC262424E74500CFFF8A /* 12.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 12.c; sourceTree = "<group>"; };
 		BB40FC2824263DAE00CFFF8A /* 13.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 13.c; sourceTree = "<group>"; };
 		BB40FC2A242647EA00CFFF8A /* 14-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "14-1.c"; sourceTree = "<group>"; };
+		BB798CF1291C8616006AEDED /* inorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inorderTraversal.cpp; sourceTree = "<group>"; };
+		BB798CF2291C8616006AEDED /* inorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = inorderTraversal.hpp; sourceTree = "<group>"; };
 		BB9446742428EB710043DFCC /* 14-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "14-2.c"; sourceTree = "<group>"; };
 		BB9446762428F4A70043DFCC /* 15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 15.c; sourceTree = "<group>"; };
 		BB9446782428FAAD0043DFCC /* 16.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 16.c; sourceTree = "<group>"; };
@@ -203,6 +207,8 @@
 				BB114CB8291B445C0079EE12 /* largestRectangleArea.hpp */,
 				BB114CBB291B50590079EE12 /* maximalRectangle.cpp */,
 				BB114CBC291B50590079EE12 /* maximalRectangle.hpp */,
+				BB798CF1291C8616006AEDED /* inorderTraversal.cpp */,
+				BB798CF2291C8616006AEDED /* inorderTraversal.hpp */,
 				BBAB9656291294F900797233 /* maxSubArray.cpp */,
 				BBAB9657291294F900797233 /* maxSubArray.hpp */,
 				BB3DE4DE29139ED600AD357F /* merge.cpp */,
@@ -323,6 +329,7 @@
 				BB3DE4DC2913951B00AD357F /* canJump.cpp in Sources */,
 				BB40FBD22422545F00CFFF8A /* main.m in Sources */,
 				BB114CBD291B50590079EE12 /* maximalRectangle.cpp in Sources */,
+				BB798CF3291C8616006AEDED /* inorderTraversal.cpp in Sources */,
 				BB3DE4F4291504D700AD357F /* sortColors.cpp in Sources */,
 				BB3DE500291A07ED00AD357F /* exist.cpp in Sources */,
 				BB114CB9291B445C0079EE12 /* largestRectangleArea.cpp in Sources */,
@@ -343,6 +350,7 @@
 				BBAB9659291294F900797233 /* maxSubArray.cpp in Sources */,
 				BB3DE501291A07ED00AD357F /* exist.cpp in Sources */,
 				BB114CBA291B445C0079EE12 /* largestRectangleArea.cpp in Sources */,
+				BB798CF4291C8616006AEDED /* inorderTraversal.cpp in Sources */,
 				BB3DE4E129139ED600AD357F /* merge.cpp in Sources */,
 				BB3DE4DD2913996000AD357F /* canJump.cpp in Sources */,
 				BB3DE4E92914ABF200AD357F /* minPathSum.cpp in Sources */,
