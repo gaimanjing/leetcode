@@ -21,6 +21,7 @@
 #include "exist.hpp"
 #include "largestRectangleArea.hpp"
 #include "maximalRectangle.hpp"
+#include "numTrees.hpp"
 
 @interface Tests : XCTestCase
 
@@ -366,4 +367,20 @@
     
     XCTAssert(result == 2);
 }
+
+// MARK: - 96
+- (void)test96numTrees1 {
+    Solution96 sut;
+    auto result = sut.numTrees(3);
+    
+    XCTAssert(result == 5);
+}
+
+- (void)test96numTrees2 {
+    Solution96 sut;
+    auto result = sut.numTrees(1);
+    
+    XCTAssert(result == 1);
+}
+
 @end

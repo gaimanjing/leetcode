@@ -34,6 +34,8 @@
 		BB40FBD22422545F00CFFF8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB40FBD12422545F00CFFF8A /* main.m */; };
 		BB798CF3291C8616006AEDED /* inorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CF1291C8616006AEDED /* inorderTraversal.cpp */; };
 		BB798CF4291C8616006AEDED /* inorderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CF1291C8616006AEDED /* inorderTraversal.cpp */; };
+		BB798CF7291C962F006AEDED /* numTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CF5291C962F006AEDED /* numTrees.cpp */; };
+		BB798CF8291C962F006AEDED /* numTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CF5291C962F006AEDED /* numTrees.cpp */; };
 		BB9446942434CE120043DFCC /* 29.c in Sources */ = {isa = PBXBuildFile; fileRef = BB9446932434CE120043DFCC /* 29.c */; };
 		BBAB9651291293A400797233 /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9650291293A400797233 /* Tests.mm */; };
 		BBAB9658291294F900797233 /* maxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9656291294F900797233 /* maxSubArray.cpp */; };
@@ -89,6 +91,8 @@
 		BB40FC2A242647EA00CFFF8A /* 14-1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "14-1.c"; sourceTree = "<group>"; };
 		BB798CF1291C8616006AEDED /* inorderTraversal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inorderTraversal.cpp; sourceTree = "<group>"; };
 		BB798CF2291C8616006AEDED /* inorderTraversal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = inorderTraversal.hpp; sourceTree = "<group>"; };
+		BB798CF5291C962F006AEDED /* numTrees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numTrees.cpp; sourceTree = "<group>"; };
+		BB798CF6291C962F006AEDED /* numTrees.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = numTrees.hpp; sourceTree = "<group>"; };
 		BB9446742428EB710043DFCC /* 14-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "14-2.c"; sourceTree = "<group>"; };
 		BB9446762428F4A70043DFCC /* 15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 15.c; sourceTree = "<group>"; };
 		BB9446782428FAAD0043DFCC /* 16.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 16.c; sourceTree = "<group>"; };
@@ -203,12 +207,12 @@
 				BB3DE4EB2914B75200AD357F /* climbStairs.hpp */,
 				BB3DE4FE291A07ED00AD357F /* exist.cpp */,
 				BB3DE4FF291A07ED00AD357F /* exist.hpp */,
+				BB798CF1291C8616006AEDED /* inorderTraversal.cpp */,
+				BB798CF2291C8616006AEDED /* inorderTraversal.hpp */,
 				BB114CB7291B445C0079EE12 /* largestRectangleArea.cpp */,
 				BB114CB8291B445C0079EE12 /* largestRectangleArea.hpp */,
 				BB114CBB291B50590079EE12 /* maximalRectangle.cpp */,
 				BB114CBC291B50590079EE12 /* maximalRectangle.hpp */,
-				BB798CF1291C8616006AEDED /* inorderTraversal.cpp */,
-				BB798CF2291C8616006AEDED /* inorderTraversal.hpp */,
 				BBAB9656291294F900797233 /* maxSubArray.cpp */,
 				BBAB9657291294F900797233 /* maxSubArray.hpp */,
 				BB3DE4DE29139ED600AD357F /* merge.cpp */,
@@ -219,6 +223,8 @@
 				BB3DE4E72914ABF200AD357F /* minPathSum.hpp */,
 				BB3DE4F62918E13C00AD357F /* minWindow.cpp */,
 				BB3DE4F72918E13D00AD357F /* minWindow.hpp */,
+				BB798CF5291C962F006AEDED /* numTrees.cpp */,
+				BB798CF6291C962F006AEDED /* numTrees.hpp */,
 				BB3DE4F2291504D700AD357F /* sortColors.cpp */,
 				BB3DE4F3291504D700AD357F /* sortColors.hpp */,
 				BB3DE4FA2919FE5500AD357F /* subsets.cpp */,
@@ -317,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB798CF7291C962F006AEDED /* numTrees.cpp in Sources */,
 				BB3DE4E029139ED600AD357F /* merge.cpp in Sources */,
 				BB3DE4F82918E13D00AD357F /* minWindow.cpp in Sources */,
 				BB3DE4E42913A6F400AD357F /* uniquePaths.cpp in Sources */,
@@ -340,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB798CF8291C962F006AEDED /* numTrees.cpp in Sources */,
 				BB3DE4F5291504D700AD357F /* sortColors.cpp in Sources */,
 				BB114CBE291B50590079EE12 /* maximalRectangle.cpp in Sources */,
 				BBAB9651291293A400797233 /* Tests.mm in Sources */,
