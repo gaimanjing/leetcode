@@ -38,6 +38,8 @@
 		BB798CF8291C962F006AEDED /* numTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CF5291C962F006AEDED /* numTrees.cpp */; };
 		BB798CFB291C9E97006AEDED /* isValidBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CF9291C9E97006AEDED /* isValidBST.cpp */; };
 		BB798CFC291C9E97006AEDED /* isValidBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CF9291C9E97006AEDED /* isValidBST.cpp */; };
+		BB798CFF291E1579006AEDED /* isSymmetric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CFD291E1579006AEDED /* isSymmetric.cpp */; };
+		BB798D00291E1579006AEDED /* isSymmetric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CFD291E1579006AEDED /* isSymmetric.cpp */; };
 		BB9446942434CE120043DFCC /* 29.c in Sources */ = {isa = PBXBuildFile; fileRef = BB9446932434CE120043DFCC /* 29.c */; };
 		BBAB9651291293A400797233 /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9650291293A400797233 /* Tests.mm */; };
 		BBAB9658291294F900797233 /* maxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9656291294F900797233 /* maxSubArray.cpp */; };
@@ -97,6 +99,8 @@
 		BB798CF6291C962F006AEDED /* numTrees.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = numTrees.hpp; sourceTree = "<group>"; };
 		BB798CF9291C9E97006AEDED /* isValidBST.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isValidBST.cpp; sourceTree = "<group>"; };
 		BB798CFA291C9E97006AEDED /* isValidBST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = isValidBST.hpp; sourceTree = "<group>"; };
+		BB798CFD291E1579006AEDED /* isSymmetric.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isSymmetric.cpp; sourceTree = "<group>"; };
+		BB798CFE291E1579006AEDED /* isSymmetric.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = isSymmetric.hpp; sourceTree = "<group>"; };
 		BB9446742428EB710043DFCC /* 14-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "14-2.c"; sourceTree = "<group>"; };
 		BB9446762428F4A70043DFCC /* 15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 15.c; sourceTree = "<group>"; };
 		BB9446782428FAAD0043DFCC /* 16.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 16.c; sourceTree = "<group>"; };
@@ -229,6 +233,8 @@
 				BB3DE4F72918E13D00AD357F /* minWindow.hpp */,
 				BB798CF5291C962F006AEDED /* numTrees.cpp */,
 				BB798CF6291C962F006AEDED /* numTrees.hpp */,
+				BB798CFD291E1579006AEDED /* isSymmetric.cpp */,
+				BB798CFE291E1579006AEDED /* isSymmetric.hpp */,
 				BB798CF9291C9E97006AEDED /* isValidBST.cpp */,
 				BB798CFA291C9E97006AEDED /* isValidBST.hpp */,
 				BB3DE4F2291504D700AD357F /* sortColors.cpp */,
@@ -330,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB798CF7291C962F006AEDED /* numTrees.cpp in Sources */,
+				BB798CFF291E1579006AEDED /* isSymmetric.cpp in Sources */,
 				BB3DE4E029139ED600AD357F /* merge.cpp in Sources */,
 				BB3DE4F82918E13D00AD357F /* minWindow.cpp in Sources */,
 				BB3DE4E42913A6F400AD357F /* uniquePaths.cpp in Sources */,
@@ -371,6 +378,7 @@
 				BB3DE4E92914ABF200AD357F /* minPathSum.cpp in Sources */,
 				BB3DE4F12914C10F00AD357F /* minDistance.cpp in Sources */,
 				BB798CFC291C9E97006AEDED /* isValidBST.cpp in Sources */,
+				BB798D00291E1579006AEDED /* isSymmetric.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
