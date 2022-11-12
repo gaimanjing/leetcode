@@ -22,6 +22,7 @@
 #include "largestRectangleArea.hpp"
 #include "maximalRectangle.hpp"
 #include "numTrees.hpp"
+#include "buildTree.hpp"
 
 @interface Tests : XCTestCase
 
@@ -383,4 +384,13 @@
     XCTAssert(result == 1);
 }
 
+// MARK: - 105
+- (void)test105  {
+    vector<int> preOrder{3,9,20,15,7};
+    vector<int> inOrder{9,3,15,20,7};
+    Solution105 sut;
+    auto result = sut.buildTree(preOrder, inOrder);
+    
+    XCTAssert(result);
+}
 @end
