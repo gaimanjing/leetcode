@@ -40,6 +40,8 @@
 		BB798CFC291C9E97006AEDED /* isValidBST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CF9291C9E97006AEDED /* isValidBST.cpp */; };
 		BB798CFF291E1579006AEDED /* isSymmetric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CFD291E1579006AEDED /* isSymmetric.cpp */; };
 		BB798D00291E1579006AEDED /* isSymmetric.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798CFD291E1579006AEDED /* isSymmetric.cpp */; };
+		BB798D13291F42D5006AEDED /* levelOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798D11291F42D5006AEDED /* levelOrder.cpp */; };
+		BB798D16291F4310006AEDED /* TreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BB798D14291F4310006AEDED /* TreeNode.cpp */; };
 		BB9446942434CE120043DFCC /* 29.c in Sources */ = {isa = PBXBuildFile; fileRef = BB9446932434CE120043DFCC /* 29.c */; };
 		BBAB9651291293A400797233 /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9650291293A400797233 /* Tests.mm */; };
 		BBAB9658291294F900797233 /* maxSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBAB9656291294F900797233 /* maxSubArray.cpp */; };
@@ -101,6 +103,10 @@
 		BB798CFA291C9E97006AEDED /* isValidBST.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = isValidBST.hpp; sourceTree = "<group>"; };
 		BB798CFD291E1579006AEDED /* isSymmetric.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = isSymmetric.cpp; sourceTree = "<group>"; };
 		BB798CFE291E1579006AEDED /* isSymmetric.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = isSymmetric.hpp; sourceTree = "<group>"; };
+		BB798D11291F42D5006AEDED /* levelOrder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = levelOrder.cpp; sourceTree = "<group>"; };
+		BB798D12291F42D5006AEDED /* levelOrder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = levelOrder.hpp; sourceTree = "<group>"; };
+		BB798D14291F4310006AEDED /* TreeNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNode.cpp; sourceTree = "<group>"; };
+		BB798D15291F4310006AEDED /* TreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TreeNode.hpp; sourceTree = "<group>"; };
 		BB9446742428EB710043DFCC /* 14-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "14-2.c"; sourceTree = "<group>"; };
 		BB9446762428F4A70043DFCC /* 15.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 15.c; sourceTree = "<group>"; };
 		BB9446782428FAAD0043DFCC /* 16.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 16.c; sourceTree = "<group>"; };
@@ -198,6 +204,15 @@
 			path = 1;
 			sourceTree = "<group>";
 		};
+		BB798D17291F475C006AEDED /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BB798D14291F4310006AEDED /* TreeNode.cpp */,
+				BB798D15291F4310006AEDED /* TreeNode.hpp */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		BBAB964F291293A400797233 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,8 +232,14 @@
 				BB3DE4FF291A07ED00AD357F /* exist.hpp */,
 				BB798CF1291C8616006AEDED /* inorderTraversal.cpp */,
 				BB798CF2291C8616006AEDED /* inorderTraversal.hpp */,
+				BB798CFD291E1579006AEDED /* isSymmetric.cpp */,
+				BB798CFE291E1579006AEDED /* isSymmetric.hpp */,
+				BB798CF9291C9E97006AEDED /* isValidBST.cpp */,
+				BB798CFA291C9E97006AEDED /* isValidBST.hpp */,
 				BB114CB7291B445C0079EE12 /* largestRectangleArea.cpp */,
 				BB114CB8291B445C0079EE12 /* largestRectangleArea.hpp */,
+				BB798D11291F42D5006AEDED /* levelOrder.cpp */,
+				BB798D12291F42D5006AEDED /* levelOrder.hpp */,
 				BB114CBB291B50590079EE12 /* maximalRectangle.cpp */,
 				BB114CBC291B50590079EE12 /* maximalRectangle.hpp */,
 				BBAB9656291294F900797233 /* maxSubArray.cpp */,
@@ -233,10 +254,7 @@
 				BB3DE4F72918E13D00AD357F /* minWindow.hpp */,
 				BB798CF5291C962F006AEDED /* numTrees.cpp */,
 				BB798CF6291C962F006AEDED /* numTrees.hpp */,
-				BB798CFD291E1579006AEDED /* isSymmetric.cpp */,
-				BB798CFE291E1579006AEDED /* isSymmetric.hpp */,
-				BB798CF9291C9E97006AEDED /* isValidBST.cpp */,
-				BB798CFA291C9E97006AEDED /* isValidBST.hpp */,
+				BB798D17291F475C006AEDED /* Shared */,
 				BB3DE4F2291504D700AD357F /* sortColors.cpp */,
 				BB3DE4F3291504D700AD357F /* sortColors.hpp */,
 				BB3DE4FA2919FE5500AD357F /* subsets.cpp */,
@@ -350,9 +368,11 @@
 				BB40FBD22422545F00CFFF8A /* main.m in Sources */,
 				BB798CFB291C9E97006AEDED /* isValidBST.cpp in Sources */,
 				BB114CBD291B50590079EE12 /* maximalRectangle.cpp in Sources */,
+				BB798D13291F42D5006AEDED /* levelOrder.cpp in Sources */,
 				BB798CF3291C8616006AEDED /* inorderTraversal.cpp in Sources */,
 				BB3DE4F4291504D700AD357F /* sortColors.cpp in Sources */,
 				BB3DE500291A07ED00AD357F /* exist.cpp in Sources */,
+				BB798D16291F4310006AEDED /* TreeNode.cpp in Sources */,
 				BB114CB9291B445C0079EE12 /* largestRectangleArea.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
