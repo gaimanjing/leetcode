@@ -23,6 +23,7 @@
 #include "maximalRectangle.hpp"
 #include "numTrees.hpp"
 #include "buildTree.hpp"
+#include "flatten.hpp"
 
 @interface Tests : XCTestCase
 
@@ -392,5 +393,11 @@
     auto result = sut.buildTree(preOrder, inOrder);
     
     XCTAssert(result);
+}
+
+// MARK: - 114
+- (void)test114  {
+    Solution114 sut;
+    sut.flatten(nullptr);
 }
 @end
